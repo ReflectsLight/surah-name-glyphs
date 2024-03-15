@@ -39,10 +39,10 @@ for svg in [!0]*.svg; do
     css=$(css_path ${id})
     rsvg-convert "${svg}" \
         --stylesheet "${css}" \
-        --page-height=1200 \
-        --page-width=1600 \
-        --width=1200 \
-        --height=630 \
+        --page-width=1200 \
+        --page-height=630 \
+        --width=1100 \
+        --height=500 \
         --background-color=white \
         -o "${png}"
     if [ "$?" = "0" ]; then
