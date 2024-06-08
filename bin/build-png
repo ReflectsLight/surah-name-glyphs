@@ -2,13 +2,13 @@
 set -e
 
 ##
-# = About
+# About
 # The following shell script creates PNG images
 # from the SVG images found in the root of the
 # repository. The PNG images are optimized for
 # the opengraph protocol (see https://ogp.me/).
 #
-# = Per-glyph settings
+# Per-glyph settings
 # By default png/<size>/default.argv is applied to
 # an SVG before being converted to a PNG.
 # When png/<size>/<surahid>.argv exists, it takes
@@ -20,7 +20,8 @@ size=""
 
 ##
 # functions
-require() {
+require()
+{
     for i in $(seq 1 $#); do
         eval "cmd=\$${i}"
         if ! which "${cmd}" > /dev/null 2>&1; then
@@ -30,7 +31,8 @@ require() {
     done
 }
 
-argv() {
+argv()
+{
     path="png/${size}/${1}.argv"
     if [ -e "${path}" ]; then
         echo "${path}"
