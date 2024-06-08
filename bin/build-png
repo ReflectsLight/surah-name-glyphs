@@ -5,8 +5,10 @@ set -e
 # About
 # The following shell script creates PNG images
 # from the SVG images found in the root of the
-# repository. The PNG images are optimized for
-# the opengraph protocol (see https://ogp.me/).
+# repository. The images are especially useful on
+# social media, for example the /png/512x512/
+# images are optimized for the opengraph protocol
+# (see https://ogp.me/).
 #
 # Per-glyph settings
 # By default png/<size>/default.argv is applied to
