@@ -49,7 +49,7 @@ require rsvg-convert
 case "${1}" in
     "512x512")
         size="512x512"
-        for svg in [!0]*.svg; do
+        for svg in svg/[!0]*.svg; do
             id=$(basename ${svg} .svg)
             png="png/${size}/${id}.png"
             args=$(argv ${id})
@@ -67,7 +67,7 @@ case "${1}" in
         ;;
     "1500x500")
         size="1500x500"
-        for svg in [!0]*.svg; do
+        for svg in svg/[!0]*.svg; do
             id=$(basename ${svg} .svg)
             png="png/${size}/${id}.png"
             args=$(argv ${id})
