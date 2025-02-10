@@ -1,3 +1,7 @@
+<p align="center">
+الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+</p>
+
 ## About
 
 A collection of all the names of chapters in the Holy Qur'an in SVG format.
