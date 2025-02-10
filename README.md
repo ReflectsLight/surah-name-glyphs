@@ -8,14 +8,9 @@ you're seeing here. I hope it helps :)
 
 ## Layout
 
-**Images**
-
 * [svg/](svg/) contains one SVG file per surah
 * [png/512x512/](png/512x512/) contains one PNG file per surah
 * [png/1500x500/](png/1500x500/) contains one PNG file per surah
-
-**Script**
-
 * [bin/build-png](bin/build-png) is a shell script that's responsible
   for the generation of PNG images. <br>
   The PNG images are generated from the images found in the [svg/](svg/) directory
