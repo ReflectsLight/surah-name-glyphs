@@ -18,7 +18,7 @@ you're seeing here. I hope it helps :)
 
 * [bin/build-png](bin/build-png) is a shell script that's responsible
   for the generation of PNG images. <br>
-  The PNG images are generated from the images found in [svg/](svg/)
+  The PNG images are generated from the images found in the [svg/](svg/) directory
 
 ## Credit
 
