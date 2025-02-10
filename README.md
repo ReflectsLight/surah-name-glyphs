@@ -6,6 +6,19 @@ apps that need to show names of Surahs. The SVGs were all part of an SVG font.
 I had to use the IcoMoon app to convert the glyphs in the font to these files
 you're seeing here. I hope it helps :)
 
+## Layout
+
+**Images**
+
+* [svg/](svg/) contains one SVG file per surah
+* [png/512x512/](png/512x512/) contains one PNG file per surah
+* [png/1500x500/](png/1500x500/) contains one PNG file per surah
+
+**Script**
+
+* [bin/build-png](bin/build-png) is a shell script that's responsible
+  for the generation of PNG images from the images found in [svg/](svg/)
+
 ## Credit
 
 Credit and thanks to [@gyenabubakar](https://github.com/gyenabubakar). Gyen is
